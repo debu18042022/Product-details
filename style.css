@@ -1,0 +1,149 @@
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+} 
+
+.font-size-14 {
+    font-size: 12px;
+} 
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.products-bg-lightblue {
+    background-color: #DBEAFE;
+}
+
+.product-c-lightblue {
+    color: #2563EB;
+}
+
+.products-img-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    border: 1px dotted #1D4ED8;
+    display: grid;
+    margin: 0 auto;
+    max-width: 1140px;
+    place-items: center;
+}
+
+.products {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 42px;
+}
+
+.products__preview {
+    margin-right: 20px;
+    width: 400px;
+}
+
+.products__preview-image {
+    border: 1px dashed #1D4ED8;
+    height: 350px;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.products__list-item {
+    height: 109px;
+    width: 122px;
+}
+
+.products__details {
+    position: relative;
+    width: 400px;
+
+}
+
+.products__ratingsection {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.products__ratings {
+    display: flex;
+    gap: 10px;
+    justify-content:flex-start;
+    margin: 0;
+}
+
+.products__color {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.products__size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__size-list {
+    border: 1px solid #1D4ED8;
+    display: grid;
+    height: 60px;
+    place-content: center;
+    width: 187px;
+}
+
+.products__size-list p {
+    margin: 0;
+    padding: 0;
+}
+
+.products__button {
+    margin: 0px;
+    padding: 0px;
+}
+
+.products__button-list {
+    border: 1px dashed #1D4ED8;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.products__button-list button{
+    background: none;
+    border: none;
+}
+
+.products__close-icon {
+    position: absolute;
+    /* right: 35px; */
+    right: 0;
+    top: 0;
+}
+
+
+
+
+
